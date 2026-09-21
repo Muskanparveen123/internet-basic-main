@@ -377,7 +377,7 @@ class QuizWindow:
 
         question_label.pack(fill="x")
 
-        var = tk.StringVar()
+        var = tk.StringVar(value="__none__")
 
         self.vars.append(var)
 
